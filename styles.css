@@ -1,0 +1,237 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+#Scene-1,
+#Scene-2,
+#Scene-3,
+#Scene-4,
+#Main {
+    position: absolute;
+    width: 80%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    display: none;
+
+    aspect-ratio: 6/4;
+}
+
+
+
+.bg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#rain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 40%;
+    display: none;
+}
+
+#cloud,
+#cloud-2 {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    left: 0%;
+    top: 5%;
+    z-index: 1;
+}
+
+#spider,
+#spider-2,
+#spider-3,
+#spider-4,
+#spider-5,
+#spider-6 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    z-index: 10;
+}
+
+#spider-3 {
+    right: 0%;
+    bottom: 50%;
+}
+
+#sun,
+#sun-2 {
+    position: absolute;
+    width: 7%;
+    height: auto;
+    left: 5%;
+    top: 10%;
+}
+
+#sun-2 {
+    display: none;
+    width: 15%;
+    left: 0%;
+    top: 0%
+}
+
+#arrow-left,
+#arrow-left-2 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    left: -3%;
+    top: 13%;
+    z-index: 2;
+    opacity: 0;
+}
+
+#tree {
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    width: 10%;
+    height: 100%;
+    z-index: 3;
+}
+
+#snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 40%;
+    display: none;
+}
+
+#ice {
+    position: absolute;
+    opacity: 60%;
+    width: 10%;
+    top: 55%;
+    left: 40%;
+    display: none;
+    z-index: 11;
+}
+
+#window {
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 40%;
+    left: 10%;
+    top: 15%;
+
+}
+
+#bubbles {
+    position: absolute;
+    width: 100%;
+    bottom: -10%;
+}
+
+#sponge {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: -10%;
+    z-index: 3;
+}
+
+#duck {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: -10%;
+    z-index: -1;
+    opacity: 100%;
+}
+
+#water {
+    position: absolute;
+    width: 100%;
+    top: -150%;
+    z-index: 11;
+    display: none;
+
+}
+
+#start,
+#middle,
+#end {
+    display: none;
+    opacity: 0;
+}
+
+#web {
+    position: absolute;
+    width: 15%;
+    top: 20%;
+    right: -5%
+}
+
+#spider-main {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 0%
+}
+
+#play {
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+
+}
+
+#play:hover {
+    cursor: pointer;
+}
+
+#Main {
+    display: block;
+    opacity: 100%;
+    background-color: red;
+}
+
+#lyric-1,
+#lyric-2,
+#lyric-3,
+#lyric-4,
+#lyric-5,
+#lyric-6,
+#lyric-7,
+#lyric-8,
+#lyric-9,
+#lyric-10,
+#lyric-11,
+#lyric-12,
+#lyric-13,
+#lyric-14,
+#lyric-15,
+#lyric-16 {
+    width: 100%;
+    position: absolute;
+    font-size: 4vw;
+    color: yellow;
+    -webkit-text-stroke: .5px black;
+    text-align: center;
+    bottom: 0%;
+    opacity: 0;
+    display: none;
+    z-index: 1000;
+}
